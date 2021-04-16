@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3112CE222629888900314616 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3112CE212629888900314616 /* GoogleService-Info.plist */; };
 		31EE3880260F161500919D9B /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EE387F260F161500919D9B /* DetailVC.swift */; };
 		31F054E8260B2A6500C23F24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F054E7260B2A6500C23F24 /* AppDelegate.swift */; };
 		31F054EA260B2A6500C23F24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F054E9260B2A6500C23F24 /* SceneDelegate.swift */; };
@@ -15,9 +16,12 @@
 		31F054F1260B2A6600C23F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F054F0260B2A6600C23F24 /* Assets.xcassets */; };
 		31F054F4260B2A6600C23F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F054F2260B2A6600C23F24 /* LaunchScreen.storyboard */; };
 		31F054FF260B34E700C23F24 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F054FE260B34E700C23F24 /* CustomCell.swift */; };
+		A68B349F371113EC6017D4EA /* Pods_Pretty__Odd__Tour_Circuit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29A310FE9B51DFEDBB44F26 /* Pods_Pretty__Odd__Tour_Circuit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11028E953067D4BFCA1BE64A /* Pods-Pretty. Odd. Tour Circuit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty. Odd. Tour Circuit.release.xcconfig"; path = "Target Support Files/Pods-Pretty. Odd. Tour Circuit/Pods-Pretty. Odd. Tour Circuit.release.xcconfig"; sourceTree = "<group>"; };
+		3112CE212629888900314616 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/ananyageorge/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		31EE387F260F161500919D9B /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		31F054E4260B2A6500C23F24 /* Pretty. Odd. Tour Circuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pretty. Odd. Tour Circuit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F054E7260B2A6500C23F24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		31F054F3260B2A6600C23F24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31F054F5260B2A6600C23F24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31F054FE260B34E700C23F24 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		C29A310FE9B51DFEDBB44F26 /* Pods_Pretty__Odd__Tour_Circuit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pretty__Odd__Tour_Circuit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D1CD516F744E6DC36277B7 /* Pods-Pretty. Odd. Tour Circuit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty. Odd. Tour Circuit.debug.xcconfig"; path = "Target Support Files/Pods-Pretty. Odd. Tour Circuit/Pods-Pretty. Odd. Tour Circuit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68B349F371113EC6017D4EA /* Pods_Pretty__Odd__Tour_Circuit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +53,8 @@
 			children = (
 				31F054E6260B2A6500C23F24 /* Pretty. Odd. Tour Circuit */,
 				31F054E5260B2A6500C23F24 /* Products */,
+				4A55782CB2FC5912CB6D4241 /* Pods */,
+				387F472A26822EF1FA842DE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +69,7 @@
 		31F054E6260B2A6500C23F24 /* Pretty. Odd. Tour Circuit */ = {
 			isa = PBXGroup;
 			children = (
+				3112CE212629888900314616 /* GoogleService-Info.plist */,
 				31F054E7260B2A6500C23F24 /* AppDelegate.swift */,
 				31F054E9260B2A6500C23F24 /* SceneDelegate.swift */,
 				31F054EB260B2A6500C23F24 /* ViewController.swift */,
@@ -73,6 +83,24 @@
 			path = "Pretty. Odd. Tour Circuit";
 			sourceTree = "<group>";
 		};
+		387F472A26822EF1FA842DE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C29A310FE9B51DFEDBB44F26 /* Pods_Pretty__Odd__Tour_Circuit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A55782CB2FC5912CB6D4241 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8D1CD516F744E6DC36277B7 /* Pods-Pretty. Odd. Tour Circuit.debug.xcconfig */,
+				11028E953067D4BFCA1BE64A /* Pods-Pretty. Odd. Tour Circuit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31F054F8260B2A6600C23F24 /* Build configuration list for PBXNativeTarget "Pretty. Odd. Tour Circuit" */;
 			buildPhases = (
+				F80CB4B857AB03EAFE84CA97 /* [CP] Check Pods Manifest.lock */,
 				31F054E0260B2A6500C23F24 /* Sources */,
 				31F054E1260B2A6500C23F24 /* Frameworks */,
 				31F054E2260B2A6500C23F24 /* Resources */,
+				3210301AC9C341A039D75DA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,12 +161,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				31F054F4260B2A6600C23F24 /* LaunchScreen.storyboard in Resources */,
+				3112CE222629888900314616 /* GoogleService-Info.plist in Resources */,
 				31F054F1260B2A6600C23F24 /* Assets.xcassets in Resources */,
 				31F054EF260B2A6500C23F24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3210301AC9C341A039D75DA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pretty. Odd. Tour Circuit/Pods-Pretty. Odd. Tour Circuit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pretty. Odd. Tour Circuit/Pods-Pretty. Odd. Tour Circuit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pretty. Odd. Tour Circuit/Pods-Pretty. Odd. Tour Circuit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F80CB4B857AB03EAFE84CA97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pretty. Odd. Tour Circuit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		31F054E0260B2A6500C23F24 /* Sources */ = {
@@ -291,6 +364,7 @@
 		};
 		31F054F9260B2A6600C23F24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D1CD516F744E6DC36277B7 /* Pods-Pretty. Odd. Tour Circuit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +384,7 @@
 		};
 		31F054FA260B2A6600C23F24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11028E953067D4BFCA1BE64A /* Pods-Pretty. Odd. Tour Circuit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
